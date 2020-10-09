@@ -4,7 +4,7 @@ end
 
 def greet_characters(array)
   array.each do |words|
-    
+    `Hello #{words}!`
 end
 
 def summon_captain_planet# code an argument here
