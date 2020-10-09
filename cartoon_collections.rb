@@ -21,7 +21,7 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-def list_dwarves(array)
+def list_dwarves(dwarves)
   array.each_with_index do |names, index|
     p `#{index}.`
   end 
