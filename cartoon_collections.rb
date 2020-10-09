@@ -3,9 +3,8 @@ def roll_call_dwarves# code an argument here
 end 
 
 def greet_characters(array)
-  # Use `each` to enumerate over the provided array
-  #
-  # Print a custom greeting for each element
+  array.each do |words|
+    
 end
 
 def summon_captain_planet# code an argument here
