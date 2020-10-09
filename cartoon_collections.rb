@@ -22,7 +22,7 @@ def find_the_cheese# code an argument here
 end
 
 def list_dwarves(array)
-  each_with_index.array do |names, index|
+  array.each_with_index do |names, index|
     p `#{index + 1}. #{names}`
   end 
 end 
