@@ -23,6 +23,6 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |names, index|
-    p "#{names}"
+    p "#{index}.#{names}"
   end 
 end 
