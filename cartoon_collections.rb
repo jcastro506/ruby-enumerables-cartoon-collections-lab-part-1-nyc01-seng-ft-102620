@@ -22,7 +22,5 @@ def find_the_cheese# code an argument here
 end
 
 def list_dwarves(array)
-  # Use `each_with_index` to enumerate over the provided array
-  #
-  # Print a numbered list of each element
+  
 end 
