@@ -1,11 +1,28 @@
+def roll_call_dwarves# code an argument here
+  # Your code here
+end 
+
 def greet_characters(array)
-  array.each do |words| 
-    puts "Hello #{words}!"
-  end 
+  # Use `each` to enumerate over the provided array
+  #
+  # Print a custom greeting for each element
+end
+
+def summon_captain_planet# code an argument here
+  # Your code here
+end
+
+def long_planeteer_calls# code an argument here
+  # Your code here
+end
+
+def find_the_cheese# code an argument here
+  # the array below is here to help
+  cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
 def list_dwarves(array)
-  array.each_with_index do |words, index|
-    puts "#{index + 1}. #{words}"
-  end 
-end
+  # Use `each_with_index` to enumerate over the provided array
+  #
+  # Print a numbered list of each element
+end 
